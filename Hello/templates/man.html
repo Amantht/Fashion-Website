@@ -1,0 +1,363 @@
+{% extends 'base.html' %}
+{% block title %}Man{% endblock title %}
+{% block body %}
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li{
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+nav ul li a:hover{
+    color: rgb(255, 15, 15);
+    transition: .3s;
+}
+
+
+
+
+
+
+
+.
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title1{
+    text-align: center;
+    font-family: cursive;
+}
+
+.des{
+    text-align: center;
+    padding: 10px;
+    font-family: lucida;
+}
+
+.des a button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.des a button:hover{
+    background-color: black;
+    color: #ff7700;
+    cursor: pointer;
+}
+
+
+.card1{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image1 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title2{
+    text-align: center;
+    font-family: cursive;
+}
+
+.des1{
+    text-align: center;
+    padding: 10px;
+    font-family: lucida;
+}
+
+.des1 a button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.des1 a button:hover{
+    background-color: black;
+    color: #ff7700;
+    cursor: pointer;
+}
+
+
+
+.card2{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image2 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title3{
+    text-align: center;
+    font-family: cursive;
+}
+
+.des2{
+    text-align: center;
+    padding: 10px;
+    font-family: lucida;
+}
+
+.des2 p{
+    font-family: lucida;
+}
+.des2 a button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.des2 a button:hover{
+    background-color: black;
+    color: #ff7700;
+    cursor: pointer;
+}
+
+
+
+.card3{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image3 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title4{
+    text-align: center;
+    font-family: cursive;
+}
+
+.des3{
+    text-align: center;
+    padding: 10px;
+}
+
+.des3 a button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.des3 a button:hover{
+    background-color: black;
+    color: #ff7700;
+    cursor: pointer;
+}
+
+
+
+.card4{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image4 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title5{
+    text-align: center;
+    font-family: cursive;
+}
+
+.des4{
+    text-align: center;
+    padding: 10px;
+}
+
+.des4 a button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.des4 a button:hover{
+    background-color: black;
+    color: #ff7700;
+    cursor: pointer;
+}
+</style>
+
+<div class="card">
+        <div class="image">
+             <img src="/static/shirt.jpeg">
+        </div>
+        <div class="title1">
+            <h1>Men's White Henley T-shirt</h1>
+        </div>
+        <div class="des">
+
+                <a href="#">
+                    <button> ORDER HERE </button>
+                 </a>
+        </div>
+         </div>
+    <div class="card1">
+        <div class="image">
+             <img src="/static/kurta.jpeg">
+        </div>
+        <div class="title2">
+            <h1>Men's Solid Festive Relaxed Fit Kurta</h1>
+        </div>
+        <div class="des1">
+
+                <a href="#">
+                    <button> ORDER HERE </button>
+                 </a>
+             </div>
+         </div>
+            <div class="card2">
+        <div class="image">
+             <img src="/static/break.jpeg">
+        </div>
+        <div class="title3">
+            <h1>Men's White Break Rules T-shirt</h1>
+        </div>
+        <div class="des2">
+
+                <a href="#">
+                    <button> ORDER HERE </button>
+                 </a>
+             </div>
+                 </div>
+            <div class="card3">
+        <div class="image">
+             <img src="/static/shirt1.jpeg">
+        </div>
+        <div class="title4">
+            <h1>Mens Yellow  Shirt</h1>
+        </div>
+        <div class="des3">
+
+                <a href="#">
+                    <button> ORDER HERE </button>
+                 </a>
+             </div>
+                 </div>
+            <div class="card3">
+        <div class="image">
+             <img src="/static/joggers1.jpeg">
+        </div>
+        <div class="title4">
+            <h1>Men's Green Joggers</h1>
+        </div>
+        <div class="des4">
+
+                <a href="#">
+                    <button> ORDER HERE </button>
+                 </a>
+
+    </div>
+            </div>
+ <div class="card4">
+        <div class="image">
+             <img src="/static/jacket.jpeg">
+        </div>
+        <div class="title5">
+            <h1>Men's Jackets</h1>
+        </div>
+        <div class="des4">
+
+                <a href="#">
+                    <button> ORDER HERE </button>
+                 </a>
+
+    </div>
+            </div>
+
+
+
+
+{% endblock body %}
