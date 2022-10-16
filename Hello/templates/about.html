@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}About{% endblock title %}
+{% block body %}
+<style>
+    h1 {text-align: center;}
+    img{
+  width: 450px;
+  height: 600px;
+}
+li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+</style>
+<body>
+    <h1>TEAM MEMBERS</h1>
+</body>
+<div>
+    <ul class="people">
+  <li>
+    <a><img src="/static/aman.jpg"></a>
+      <br>ID No:2100032572<br>
+      Aman Chaudhary Tharu
+  </li>
+  <li>
+    <a><img src="/static/lakshman.jpg"></a>
+      <br>ID No:2100030966<br>
+      D.S. Lakshman
+  </li>
+        <li>
+    <a><img src="/static/yamini.jpg"></a>
+      <br>ID No:2100032135<br>
+      Yamini Chintada
+  </li>
+</ul>
+
+    </div>
+
+{% endblock body %}
+
