@@ -1,43 +1,112 @@
 {% extends 'base.html' %}
-
-{% block title %}About Us{% endblock title %}
-
+{% block title %} About Us{% endblock title %}
 {% block body %}
 <style>
-    h1 {text-align: center;}
-    img{
-  width: 450px;
-  height: 600px;
+
+nav ul li{
+    margin: 0px;
+    background-color: transparent;
+    color: white;
 }
-li{
-  display: inline-block;
-  list-style-type: none;
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
 }
+.card{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card1{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image1 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card2{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image2 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+ h1 {text-align: center;}
 
 </style>
-<body>
-    <h1>TEAM MEMBERS</h1>
-</body>
-<div>
-    <ul class="people">
-  <li>
-    <a><img src="/static/aman.jpg"></a>
-      <br>ID No:2100032572<br>
-      Aman Chaudhary Tharu
-  </li>
-  <li>
-    <a><img src="/static/lakshman.jpg"></a>
-      <br>ID No:2100030966<br>
-      D.S. Lakshman
-  </li>
-        <li>
-    <a><img src="/static/yamini.jpg"></a>
-      <br>ID No:2100032135<br>
-      Yamini Chintada
-  </li>
-</ul>
+<div class="card">
+        <div class="image">
+             <img src="/static/aman.jpeg">
+        </div>
+        <div class="title1">
+            Aman Chaudhary Tharu
+            <br>
+            ID No: 2100032572
+        </div>
 
-    </div>
+         </div>
+    <div class="card1">
+        <div class="image">
+             <img src="/static/lakshman.jpg">
+        </div>
+        <div class="title2">
+        D.S. Lakshman
+            <br>
+            ID No: 2100030966
+        </div>
+
+         </div>
+            <div class="card2">
+        <div class="image">
+             <img src="/static/yamini.jpg">
+        </div>
+        <div class="title3">
+         Yamini Chintada
+            <br>
+            ID No: 2100032135
+        </div>
+
+                 </div>
+
+
+
+
 
 {% endblock body %}
-

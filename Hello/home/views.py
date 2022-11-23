@@ -98,3 +98,6 @@ def contact(request):
         contact.save()
         messages.success(request, 'Your message has been sent!')
     return render(request, 'contact.html')
+@login_required(login_url='login')
+def working(request):
+    return render(request,'working.html')

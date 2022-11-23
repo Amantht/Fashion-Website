@@ -27,6 +27,8 @@ urlpatterns = [
 
     path("diwali",views.diwali,name='diwali'),
 
+    path("working",views.working,name='working'),
+
    
     
 ]
